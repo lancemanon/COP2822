@@ -1,0 +1,50 @@
+/*
+   New Perspectives on HTML
+   Tutorial 3
+   Case Problem 1
+
+   ICI Text and Color Styles
+   Author: Taylor Deas
+   Date:   10/06/2024
+
+   Filename:         c_styles.css
+   Supporting Files: none
+
+*/
+
+html{
+   background-color: black;
+   color: white;
+   font-family: 'Century Gothic', sans-serif;
+}
+
+header > h1{
+   color: yellow;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 28px;
+   letter-spacing: 20px ;
+   text-align: center;
+}
+
+article > h2{
+   font-size: 24px;
+   font-weight: normal;
+   letter-spacing: 5px ;
+}
+
+article{
+   text-align: justify;
+}
+
+.keyword{
+   color: yellow;
+   font-weight: normal;
+}
+
+footer > p{
+   text-align: center;
+}
+
+image{
+   border-image-width: 0px;
+}
