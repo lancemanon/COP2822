@@ -1,0 +1,29 @@
+
+html{
+    background-color: #180161;
+    font-family: "Sometype Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+
+    min-height: 100vh;
+    background: linear-gradient(#4F1787 50%, #EB3678, #FB773C);
+
+}
+
+a:link{
+    color: #EB3678;
+}
+
+a:visited{
+    color: aqua;
+}
+
+#done{
+    text-align: center;
+}
+
+p::first-letter{
+    font-size: 2em;
+}
