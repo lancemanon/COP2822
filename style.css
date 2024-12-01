@@ -1,0 +1,54 @@
+
+html{
+    background-color: #180161;
+    font-family: "Sometype Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    text-align: center;
+
+    min-height: 100vh;
+    background: linear-gradient(#4F1787 50%, #EB3678, #FB773C);
+
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color: #EB3678;
+}
+
+#done{
+    text-align: center;
+}
+
+p::first-letter{
+    font-size: 2em;
+}
+
+@page{
+    size: 8.5in 11in;
+    margin: .5in;
+}
+
+@media print{
+    font{
+        color: black;
+    }
+
+    a:visited{
+        color: blue !important;
+    }
+
+    iframe{
+        display: none;
+    }
+}
