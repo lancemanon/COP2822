@@ -1,0 +1,97 @@
+<!--
+
+Form Assignment
+
+Author: Taylor Deas
+Date: 11/28/2024
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                <img src="valenciaCollegeLogo.png" style="width: 30%;">
+            </h1>
+        </header>
+
+        <form style="border: solid; padding: 10px;">
+
+            <!-- Name -->
+            <label for="first_name">First name:</label><br>
+            <input type="text" id="first_name" name="name"><br><br><br>
+
+            <label for="last_name">Last name:</label><br>
+            <input type="text" id="last_name" name="name"><br><br><br>
+
+            <!-- Gender -->
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="MALE">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="FEMALE">
+            <label for="female">Female</label><br>
+            <input type="radio" id="non-binary" name="gender" value="NON-BINARY">
+            <label for="non-binary">Non-Binary</label><br>
+            <input type="radio" id="other" name="gender" value="OTHER">
+            <label for="other">Other</label><br><br><br>
+
+            <!-- Select a color -->
+
+            <label for="color">Select a color:</label><br>
+            <input type="checkbox" id="red" name="color" value="RED">
+            <label for="red">red</label><br>
+            <input type="checkbox" id="white" name="color" value="WHITE">
+            <label for="white">White</label><br>
+            <input type="checkbox" id="blue" name="color" value="WHITE">
+            <label for="blue">Blue</label><br><br><br>
+
+            <!-- Favorite Sport -->
+
+            <label for="fav_sport">Favorite sport:</label>
+            <select id="fav_sport" name="fav_sport">
+                <option value="soccer">Soccer</option>
+                <option value="football">Football</option>
+                <option value="basketball">Basketball</option>
+                <option value="hockey">Hockey</option>
+                <option value="baseball">Baseball</option>
+                <option value="cricket">Cricket</option>
+                <option value="rugby">Rugby</option>
+                <option value="lacrosse">Locrosse</option>
+                <option value="track_and_field">Track & Field</option>
+                <option value="none">None</option>
+            </select><br><br><br>
+
+            <!-- Global warming prompt -->
+            
+            <label for="global_warming">Write a paragraph about global warming:</label><br>
+            <textarea name="global_warming" rows="20" cols="50"></textarea><br><br><br>
+
+            <!-- Password -->
+
+            <label for="password">Enter a password (10 character max):</label><br>
+            <input type="password" id="password" name="password" maxlength="10"><br><br><br>
+
+            <!-- File attachment -->
+
+            <label for="file">Attach a file:</label><br>
+            <input type="file" id="file" name="file"><br><br><br><br>
+
+            <!-- Submit -->
+
+            <input type="submit" id="submit" name="submit">
+
+        </form>
+    </body>
+
+</html>
